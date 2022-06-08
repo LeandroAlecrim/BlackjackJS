@@ -3,22 +3,35 @@
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Black Jack</title>
-	<link rel="stylesheet" href="blackjack.css">
-	<script src="blackjack.js"></script>
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js"></script>
 </head>
 
 <body>
-	<h2>Dealer: <span id="dealer-sum"></span></h2>
+	<div class="waviy ">
+		<span style="--i:1">B</span>
+		<span style="--i:2">l</span>
+		<span style="--i:3">a</span>
+		<span style="--i:4">c</span>
+		<span style="--i:5">k</span>
+		<span style="--i:6">j</span>
+		<span style="--i:7">a</span>
+		<span style="--i:8">c</span>
+		<span style="--i:9">k</span>
+	</div>
+	<h2 class="text">Dealer: <span id="dealer-sum"></span></h2>
 	<div id="dealer-cards">
 		<img id="hidden" src="./cards/BACK.png" />
 	</div>
 
-	<h2>You: <span id="your-sum"></span></h2>
+	<h2 class="text">You: <span id="your-sum"></span></h2>
 	<div id="your-cards"></div>
 	<br>
-	<button id="hit">Hit</button>
-	<button id="stay">Stay</button>
-	<p id="results"></p>
+	<button id="hit" class="button">Hit</button>
+	<button id="stay" class="button">Stay</button>
+	<p id="results" class="text"></p>
+	<button id="restart" class="button-hidden">Restart</button>
+	
 </body>
 
 </html>
